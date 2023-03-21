@@ -12,6 +12,9 @@
   padding: 15px 30px;
   color: white;
 }
+.button:hover {
+  color: black;
+}
 h1 {
   font-size: 96px;
 }
