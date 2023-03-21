@@ -1,16 +1,30 @@
-.hero {
-  padding: 160px 20px;
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  padding: 150px 0px;
   background-color: #f9f7fe;
+}
+h1,
+h2,
+h3 {
   font-family: "Playfair Display", serif;
 }
 .button {
   background-color: #6c63ff;
-  font-family: "Poppins", sans-serif;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
   color: white;
+}
+.second-button {
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: #6c63ff;
 }
 .button:hover {
   color: black;
@@ -18,7 +32,19 @@
 h1 {
   font-size: 96px;
 }
-p {
-  font-size: 36px;
-  font-family: "Poppins", sans-serif;
+main h2 {
+  font-size: 60px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 80px 0px;
+  }
+  h2,
+  h1 {
+    font-size: 44px !important;
+  }
+  body {
+    text-align: center;
+  }
 }
