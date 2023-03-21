@@ -1,0 +1,21 @@
+.hero {
+  padding: 160px 20px;
+  background-color: #f9f7fe;
+  font-family: "Playfair Display", serif;
+}
+.button {
+  background-color: #6c63ff;
+  font-family: "Poppins", sans-serif;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: white;
+}
+h1 {
+  font-size: 96px;
+}
+p {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
